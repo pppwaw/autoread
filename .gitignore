@@ -107,3 +107,4 @@ venv.bak/
 
 # me
 AndroidViewClient/
+.idea/
