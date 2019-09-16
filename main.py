@@ -11,5 +11,6 @@ devices=[]
 for i in serialnos:
     # noinspection PyTypeChecker
     devices.append(ViewClient.connectToDeviceOrExit(serialno=i))
-shuabao=Shuabao(30,devices)
+hour=3600
+shuabao=Shuabao(hour*2,devices)
 shuabao.run()
